@@ -1,0 +1,1384 @@
+[2023-12-09 17:46:44:883883] [I] Logging to file /home/deck/.var/app/io.github.streetpea.Chiaki4deck-hdr2/data/Chiaki/Chiaki/log/chiaki_session_2023-12-09_17-46-44-867867.log
+[2023-12-09 17:46:44:883883] [I] Chiaki Version 1.4.1
+[2023-12-09 17:46:44:883883] [I] Noise suppress level is -6 dB
+[2023-12-09 17:46:44:883883] [I] Echo suppress level is -30 dB
+[2023-12-09 17:46:44:883883] [I] Started microphone echo cancellation and noise suppression
+[2023-12-09 17:46:44:883883] [I] ChiakiOpusEncoder initialized
+[2023-12-09 17:46:45:023023] [I] Connected Steam Deck ... gyro online
+
+
+[2023-12-09 17:46:45:023023] [I] Controller 0 opened: "Microsoft X-Box 360 pad 0 (030079f6de280000ff11000001000000)"
+[2023-12-09 17:46:45:023023] [I] Using placebo high quality preset
+[2023-12-09 17:46:45:023023] [I] [libplacebo] Initialized libplacebo v6.338.1 (API v338)
+[2023-12-09 17:46:45:070070] [I] [libplacebo] Spent 45.841 ms enumerating instance extensions
+[2023-12-09 17:46:45:070070] [I] [libplacebo] Creating vulkan instance with extensions:
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_KHR_get_physical_device_properties2
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_KHR_surface
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_EXT_swapchain_colorspace
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_KHR_external_memory_capabilities
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_KHR_external_semaphore_capabilities
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_KHR_get_surface_capabilities2
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_KHR_portability_enumeration
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_KHR_surface
+[2023-12-09 17:46:45:070070] [I] [libplacebo]     VK_KHR_xcb_surface
+[2023-12-09 17:46:45:079079] [I] [libplacebo] Probing for vulkan devices:
+[2023-12-09 17:46:45:081081] [I] [libplacebo]     GPU 0: AMD Radeon Graphics (RADV VANGOGH) v1.3.267 (integrated)
+[2023-12-09 17:46:45:081081] [I] [libplacebo]            uuid: 00:00:00:00:04:00:00:00:00:00:00:00:00:00:00:00
+[2023-12-09 17:46:45:081081] [I] [libplacebo]     GPU 1: llvmpipe (LLVM 17.0.6, 256 bits) v1.3.267 (software)
+[2023-12-09 17:46:45:081081] [I] [libplacebo]            uuid: 6D:65:73:61:32:33:2E:33:2E:30:00:00:00:00:00:00
+[2023-12-09 17:46:45:082082] [I] [libplacebo] Vulkan device properties:
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     Device Name: AMD Radeon Graphics (RADV VANGOGH)
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     Device ID: 1002:1435
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     Device UUID: 00:00:00:00:04:00:00:00:00:00:00:00:00:00:00:00
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     Driver version: 5c03000
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     API version: 1.3.267
+[2023-12-09 17:46:45:082082] [I] [libplacebo] Using async transfer (queue 1)
+[2023-12-09 17:46:45:082082] [I] [libplacebo] Using async compute (queue 1)
+[2023-12-09 17:46:45:082082] [I] [libplacebo] Creating vulkan device with extensions:
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_KHR_swapchain
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_KHR_push_descriptor
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_KHR_external_memory_fd
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_EXT_external_memory_dma_buf
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_EXT_external_memory_host
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_KHR_external_semaphore_fd
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_EXT_pci_bus_info
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_EXT_hdr_metadata
+[2023-12-09 17:46:45:082082] [I] [libplacebo]     VK_EXT_image_drm_format_modifier
+[2023-12-09 17:46:45:090090] [I] [libplacebo] Memory heaps supported by device:
+[2023-12-09 17:46:45:090090] [I] [libplacebo]     0: flags 0x0 size 3050M
+[2023-12-09 17:46:45:090090] [I] [libplacebo]     1: flags 0x1 size 6101M
+[2023-12-09 17:46:45:090090] [I] [libplacebo] Memory summary:     0 used     0 res     0 alloc, efficiency 100.00%, utilization 100.00%, max page:  381M
+[2023-12-09 17:46:45:090090] [I] [libplacebo] shaderc SPIR-V version 1.6 rev 1
+[2023-12-09 17:46:45:090090] [I] [libplacebo] Initialized SPIR-V compiler 'shaderc'
+[2023-12-09 17:46:45:090090] [I] [libplacebo] GPU information:
+[2023-12-09 17:46:45:090090] [I] [libplacebo]     GLSL version: 450 (vulkan)
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       max_shmem_size:            65536
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       max_group_threads:         1024
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       max_group_size[0]:         1024
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       max_group_size[1]:         1024
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       max_group_size[2]:         1024
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       subgroup_size:             64
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       min_gather_offset:         -32
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       max_gather_offset:         31
+[2023-12-09 17:46:45:090090] [I] [libplacebo]     Limits:
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       thread_safe:               1
+[2023-12-09 17:46:45:090090] [I] [libplacebo]       callbacks:                 1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_buf_size:              6397714432
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_ubo_size:              4294967295
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_ssbo_size:             4294967295
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_vbo_size:              6397714432
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_mapped_size:           6397714432
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_buffer_texels:         4294967295
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       align_host_ptr:            4096
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       host_cached:               1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_tex_1d_dim:            16384
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_tex_2d_dim:            16384
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_tex_3d_dim:            2048
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       blittable_1d_3d:           1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       buf_transfer:              1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       align_tex_xfer_pitch:      1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       align_tex_xfer_offset:     4
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_variable_comps:        0
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_constants:             18446744073709551615
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_pushc_size:            256
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       align_vertex_stride:       1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_dispatch[0]:           65535
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_dispatch[1]:           65535
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       max_dispatch[2]:           65535
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       fragment_queues:           1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       compute_queues:            1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]     External API interop:
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       UUID: 00:00:00:00:04:00:00:00:00:00:00:00:00:00:00:00
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       PCI: 0000:04:00:0
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       buf export caps: 0x9
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       buf import caps: 0x19
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       tex export caps: 0x9
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       tex import caps: 0x19
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       sync export caps: 0x1
+[2023-12-09 17:46:45:091091] [I] [libplacebo]       sync import caps: 0x0
+[2023-12-09 17:46:45:092092] [I] Starting session request for PS5
+[2023-12-09 17:46:45:092092] [I] Trying to request session from 192.168.0.189:9295
+[2023-12-09 17:46:45:100100] [I] [libplacebo] Available surface configurations:
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     0: VK_FORMAT_B8G8R8A8_SRGB                  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     1: VK_FORMAT_B8G8R8A8_UNORM                 VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     2: VK_FORMAT_R8G8B8A8_SRGB                  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     3: VK_FORMAT_R8G8B8A8_UNORM                 VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     4: VK_FORMAT_R5G6B5_UNORM_PACK16            VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     5: VK_FORMAT_R16G16B16A16_SFLOAT            VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     6: VK_FORMAT_R16G16B16A16_UNORM             VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     7: VK_FORMAT_A2B10G10R10_UNORM_PACK32       VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     8: VK_FORMAT_A2R10G10B10_UNORM_PACK32       VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     9: VK_FORMAT_A2B10G10R10_UNORM_PACK32       VK_COLOR_SPACE_HDR10_ST2084_EXT
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     10: VK_FORMAT_A2R10G10B10_UNORM_PACK32       VK_COLOR_SPACE_HDR10_ST2084_EXT
+[2023-12-09 17:46:45:100100] [I] [libplacebo]     11: VK_FORMAT_R16G16B16A16_SFLOAT            VK_COLOR_SPACE_EXTENDED_SRGB_LINEAR_EXT
+[2023-12-09 17:46:45:100100] [I] [libplacebo] Picked surface configuration 6: VK_FORMAT_R16G16B16A16_UNORM + VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[2023-12-09 17:46:45:110110] [I] Connected to 192.168.0.189:9295
+[2023-12-09 17:46:45:110110] [I] Sending session request
+[2023-12-09 17:46:45:114114] [I] Session request successful
+[2023-12-09 17:46:45:124124] [I] Starting ctrl
+[2023-12-09 17:46:45:132132] [I] Ctrl connected to 192.168.0.189:9295
+[2023-12-09 17:46:45:132132] [I] Sending ctrl request
+[2023-12-09 17:46:45:136136] [I] Ctrl received http header as response
+[2023-12-09 17:46:45:136136] [I] Ctrl received ctrl request http response
+[2023-12-09 17:46:45:136136] [I] Ctrl got Server Type: 2
+[2023-12-09 17:46:45:136136] [I] Ctrl connected
+[2023-12-09 17:46:45:163163] [I] Ctrl received Login message: success
+[2023-12-09 17:46:45:300300] [I] [libplacebo] Spent 192.628 ms translating SPIR-V (slow!)
+[2023-12-09 17:46:45:334334] [I] [libplacebo] Spent 33.867 ms translating SPIR-V
+[2023-12-09 17:46:45:541541] [I] Ctrl received valid Session Id: 17021692053LQMMXFAGAXRMCSGKOMWPA676VMTVLVEGR6GSTZUY2D6Y5EN4WHVVZ76T3EW6K2C
+[2023-12-09 17:46:45:541541] [I] Starting Senkusha
+[2023-12-09 17:46:45:541541] [I] Takion connecting (version 7)
+[2023-12-09 17:46:45:541541] [I] Takion enabled Don't Fragment Bit
+[2023-12-09 17:46:45:541541] [I] Takion sent init
+[2023-12-09 17:46:45:544544] [I] Takion received init ack with remote tag 0x20fd5db4, outbound streams: 0x64, inbound streams: 0x64
+[2023-12-09 17:46:45:544544] [I] Takion sent cookie
+[2023-12-09 17:46:45:546546] [I] Takion received cookie ack
+[2023-12-09 17:46:45:546546] [I] Takion connected
+[2023-12-09 17:46:45:547547] [I] Senkusha sending big
+[2023-12-09 17:46:45:549549] [I] Senkusha successfully received bang
+[2023-12-09 17:46:45:549549] [I] Senkusha Ping Test with count 10 starting
+[2023-12-09 17:46:45:848848] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 0
+[2023-12-09 17:46:45:850850] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:46:048048] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 1
+[2023-12-09 17:46:46:150150] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:46:348348] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 2
+[2023-12-09 17:46:46:450450] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:46:649649] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 3
+[2023-12-09 17:46:46:750750] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:46:949949] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 4
+[2023-12-09 17:46:47:051051] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:47:250250] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 5
+[2023-12-09 17:46:47:351351] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:47:450450] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 6
+[2023-12-09 17:46:47:701701] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:47:750750] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 7
+[2023-12-09 17:46:47:951951] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 8
+[2023-12-09 17:46:47:951951] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:48:251251] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 9
+[2023-12-09 17:46:48:266266] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:48:452452] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 10
+[2023-12-09 17:46:48:551551] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:48:753753] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 11
+[2023-12-09 17:46:48:851851] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:48:953953] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 12
+[2023-12-09 17:46:49:241241] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:49:254254] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 13
+[2023-12-09 17:46:49:456456] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:49:554554] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 14
+[2023-12-09 17:46:49:755755] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 15
+[2023-12-09 17:46:49:771771] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:50:055055] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 16
+[2023-12-09 17:46:50:066066] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:50:136136] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:46:50:353353] [E] Takion dropping data with seq num 0x20fd5db4
+[2023-12-09 17:46:50:356356] [I] Takion Send Buffer re-sending packet with seqnum 0x3c23c47a, tries: 17
+[2023-12-09 17:46:50:549549] [E] Senkusha data ack for echo command receive timeout
+[2023-12-09 17:46:50:549549] [E] Senkusha failed to receive data ack for echo command
+[2023-12-09 17:46:50:549549] [E] Senkusha Ping Test failed because sending echo command (true) failed
+[2023-12-09 17:46:50:550550] [E] Senkusha Ping Test failed
+[2023-12-09 17:46:50:550550] [I] Senkusha is disconnecting
+[2023-12-09 17:46:50:550550] [I] Senkusha closed takion
+[2023-12-09 17:46:50:550550] [E] Senkusha failed, but we still try to connect with fallback values
+[2023-12-09 17:46:50:551551] [I] Takion connecting (version 12)
+[2023-12-09 17:46:50:551551] [I] Takion sent init
+[2023-12-09 17:46:50:562562] [I] Takion received init ack with remote tag 0x102959d8, outbound streams: 0x64, inbound streams: 0x64
+[2023-12-09 17:46:50:562562] [I] Takion sent cookie
+[2023-12-09 17:46:50:563563] [I] Takion received cookie ack
+[2023-12-09 17:46:50:563563] [I] Takion connected
+[2023-12-09 17:46:50:563563] [I] StreamConnection sending big
+[2023-12-09 17:46:50:568568] [I] BANG received
+[2023-12-09 17:46:50:569569] [I] Crypt has become available. Re-checking MACs of 0 packets
+[2023-12-09 17:46:50:569569] [I] StreamConnection successfully received bang
+[2023-12-09 17:46:50:636636] [W] Received Ctrl Message with unknown type 0x41
+[2023-12-09 17:46:50:636636] [W] offset 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  0123456789abcdef
+[2023-12-09 17:46:50:636636] [W]      0 00 00 00 00 02 01 00 00                         ........        
+[2023-12-09 17:46:50:670670] [D] StreamConnection received audio header:
+[2023-12-09 17:46:50:670670] [D] offset 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  0123456789abcdef
+[2023-12-09 17:46:50:670670] [D]      0 02 10 00 00 bb 80 00 00 01 e0 00 00 00 01       ..............  
+[2023-12-09 17:46:50:670670] [I] Audio Header:
+[2023-12-09 17:46:50:670670] [I]   channels = 2
+[2023-12-09 17:46:50:670670] [I]   bits = 16
+[2023-12-09 17:46:50:670670] [I]   rate = 48000
+[2023-12-09 17:46:50:670670] [I]   frame size = 480
+[2023-12-09 17:46:50:670670] [I]   unknown = 1
+[2023-12-09 17:46:50:670670] [I] ChiakiOpusDecoder initialized
+[2023-12-09 17:46:50:688688] [I] Audio Device alsa_output.pci-0000_04_00.5-platform-nau8821-max.HiFi__hw_sofnau8821max_1__sink opened with 2 channels @ 48000 Hz, buffer size 19200
+[2023-12-09 17:46:50:688688] [I] Video Profiles:
+[2023-12-09 17:46:50:688688] [I]   0: 1920x1080
+[2023-12-09 17:46:50:688688] [I] StreamConnection successfully received streaminfo
+[2023-12-09 17:46:50:805805] [I] Switched to profile 0, resolution: 1920x1080
+[2023-12-09 17:46:50:881881] [I] [libplacebo] Picked surface configuration 9: VK_FORMAT_A2B10G10R10_UNORM_PACK32 + VK_COLOR_SPACE_HDR10_ST2084_EXT
+[2023-12-09 17:46:50:884884] [W] Requested key stream for key pos 0x6e210 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x13000, populated: 0x20000, min key pos: 0x33000, last key pos: 0x6e300
+[2023-12-09 17:46:50:884884] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x33000 to 0x6e000
+[2023-12-09 17:46:50:889889] [I] Frame Processor received 68+0 / 117+2 units, attempting FEC
+[2023-12-09 17:46:50:889889] [E] FEC failed
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x44
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x45
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x46
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x47
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x48
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x49
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x4a
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x4b
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x4c
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x4d
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x4e
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x4f
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x50
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x51
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x52
+[2023-12-09 17:46:50:889889] [W] Missing unit 0x53
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x54
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x55
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x56
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x57
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x58
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x59
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x5a
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x5b
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x5c
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x5d
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x5e
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x5f
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x60
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x61
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x62
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x63
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x64
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x65
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x66
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x67
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x68
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x69
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x6a
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x6b
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x6c
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x6d
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x6e
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x6f
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x70
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x71
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x72
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x73
+[2023-12-09 17:46:50:890890] [W] Missing unit 0x74
+[2023-12-09 17:46:50:924924] [I] [libplacebo] Spent 24.429 ms translating SPIR-V
+[2023-12-09 17:46:50:949949] [W] Detected missing or corrupt frame(s) from 2 to 6
+[2023-12-09 17:46:50:949949] [D] StreamConnection reporting corrupt frame(s) from 2 to 5
+[2023-12-09 17:46:51:009009] [I] Frame Processor received 16+0 / 39+1 units, attempting FEC
+[2023-12-09 17:46:51:009009] [E] FEC failed
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x10
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x11
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x12
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x13
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x14
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x15
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x16
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x17
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x18
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x19
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x1a
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x1b
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x1c
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x1d
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x1e
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x1f
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x20
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x21
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x22
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x23
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x24
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x25
+[2023-12-09 17:46:51:009009] [W] Missing unit 0x26
+[2023-12-09 17:46:51:009009] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:51:009009] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:51:009009] [W] Detected missing or corrupt frame(s) from 8 to 10
+[2023-12-09 17:46:51:009009] [D] StreamConnection reporting corrupt frame(s) from 8 to 9
+[2023-12-09 17:46:51:009009] [W] Requested key stream for key pos 0xe2720 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x1f000, populated: 0x20000, min key pos: 0x8d000, last key pos: 0xe2810
+[2023-12-09 17:46:51:009009] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x8d000 to 0xe2000
+[2023-12-09 17:46:51:010010] [I] Frame Processor received 37+0 / 41+1 units, attempting FEC
+[2023-12-09 17:46:51:010010] [E] FEC failed
+[2023-12-09 17:46:51:010010] [W] Missing unit 0x25
+[2023-12-09 17:46:51:010010] [W] Missing unit 0x26
+[2023-12-09 17:46:51:010010] [W] Missing unit 0x27
+[2023-12-09 17:46:51:010010] [W] Missing unit 0x28
+[2023-12-09 17:46:51:010010] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:51:010010] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:51:010010] [W] Detected missing or corrupt frame(s) from 8 to 12
+[2023-12-09 17:46:51:010010] [D] StreamConnection reporting corrupt frame(s) from 8 to 11
+[2023-12-09 17:46:51:023023] [I] Frame Processor received 80+11 / 91+45 units, attempting FEC
+[2023-12-09 17:46:51:031031] [I] FEC successful
+[2023-12-09 17:46:51:074074] [W] Requested key stream for key pos 0x158f40 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x7000, populated: 0x1f000, min key pos: 0x109000, last key pos: 0x159030
+[2023-12-09 17:46:51:074074] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x109000 to 0x159000
+[2023-12-09 17:46:51:089089] [I] Frame Processor received 31+0 / 62+41 units, attempting FEC
+[2023-12-09 17:46:51:090090] [E] FEC failed
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x1f
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x20
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x21
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x22
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x23
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x24
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x25
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x26
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x27
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x28
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x29
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x2a
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x2b
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x2c
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x2d
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x2e
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x2f
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x30
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x31
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x32
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x33
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x34
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x35
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x36
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x37
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x38
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x39
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x3a
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x3b
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x3c
+[2023-12-09 17:46:51:090090] [W] Missing unit 0x3d
+[2023-12-09 17:46:51:090090] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:51:090090] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:51:090090] [W] Detected missing or corrupt frame(s) from 13 to 15
+[2023-12-09 17:46:51:090090] [D] StreamConnection reporting corrupt frame(s) from 13 to 14
+[2023-12-09 17:46:51:095095] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:51:095095] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:51:106106] [W] Detected missing or corrupt frame(s) from 13 to 16
+[2023-12-09 17:46:51:106106] [D] StreamConnection reporting corrupt frame(s) from 13 to 15
+[2023-12-09 17:46:51:181181] [W] Requested key stream for key pos 0x1d2520 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x14000, populated: 0x20000, min key pos: 0x1ad000, last key pos: 0x1d2610
+[2023-12-09 17:46:51:181181] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x1ad000 to 0x1d2000
+[2023-12-09 17:46:51:189189] [I] Frame Processor received 20+23 / 49+40 units, attempting FEC
+[2023-12-09 17:46:51:189189] [E] FEC failed
+[2023-12-09 17:46:51:189189] [W] Missing unit 0
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x1
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x2
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x3
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x4
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x5
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x6
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x7
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x8
+[2023-12-09 17:46:51:189189] [W] Missing unit 0x9
+[2023-12-09 17:46:51:189189] [W] Missing unit 0xa
+[2023-12-09 17:46:51:190190] [W] Missing unit 0xb
+[2023-12-09 17:46:51:190190] [W] Missing unit 0xc
+[2023-12-09 17:46:51:190190] [W] Missing unit 0xd
+[2023-12-09 17:46:51:190190] [W] Missing unit 0xe
+[2023-12-09 17:46:51:190190] [W] Missing unit 0xf
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x10
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x11
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x12
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x13
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x14
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x15
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x16
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x17
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x18
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x19
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x1a
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x1b
+[2023-12-09 17:46:51:190190] [W] Missing unit 0x1c
+[2023-12-09 17:46:51:190190] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:51:190190] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:51:190190] [W] Detected missing or corrupt frame(s) from 19 to 21
+[2023-12-09 17:46:51:190190] [D] StreamConnection reporting corrupt frame(s) from 19 to 20
+[2023-12-09 17:46:51:234234] [I] [libplacebo] Spent 308.050 ms translating SPIR-V (slow!)
+[2023-12-09 17:46:51:272272] [I] Frame Processor received 18+18 / 36+32 units, attempting FEC
+[2023-12-09 17:46:51:274274] [I] FEC successful
+[2023-12-09 17:46:51:287287] [I] [libplacebo] Spent 36.832 ms generating shader LUT
+[2023-12-09 17:46:51:287287] [I] [libplacebo] Dithering to 10 bit depth
+[2023-12-09 17:46:51:306306] [I] [libplacebo] Spent 14.046 ms translating SPIR-V
+[2023-12-09 17:46:51:313313] [I] Frame Processor received 32+0 / 36+32 units, attempting FEC
+[2023-12-09 17:46:51:313313] [E] FEC failed
+[2023-12-09 17:46:51:313313] [W] Missing unit 0x20
+[2023-12-09 17:46:51:313313] [W] Missing unit 0x21
+[2023-12-09 17:46:51:313313] [W] Missing unit 0x22
+[2023-12-09 17:46:51:313313] [W] Missing unit 0x23
+[2023-12-09 17:46:51:313313] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:51:313313] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:51:313313] [W] Detected missing or corrupt frame(s) from 27 to 28
+[2023-12-09 17:46:51:313313] [D] StreamConnection reporting corrupt frame(s) from 27 to 27
+[2023-12-09 17:46:51:401401] [I] Frame Processor received 29+8 / 37+26 units, attempting FEC
+[2023-12-09 17:46:51:402402] [I] FEC successful
+[2023-12-09 17:46:53:993993] [W] Requested key stream for key pos 0x76e0e0 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x17000, populated: 0x20000, min key pos: 0x749000, last key pos: 0x76e660
+[2023-12-09 17:46:53:993993] [I] Frame Processor received 22+0 / 32+5 units, attempting FEC
+[2023-12-09 17:46:53:993993] [E] FEC failed
+[2023-12-09 17:46:53:993993] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x749000 to 0x76e000
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x16
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x17
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x18
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x19
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x1a
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x1b
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x1c
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x1d
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x1e
+[2023-12-09 17:46:53:993993] [W] Missing unit 0x1f
+[2023-12-09 17:46:53:993993] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:53:993993] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:53:993993] [W] Detected missing or corrupt frame(s) from 185 to 189
+[2023-12-09 17:46:53:993993] [D] StreamConnection reporting corrupt frame(s) from 185 to 188
+[2023-12-09 17:46:54:135135] [I] Frame Processor received 23+5 / 34+5 units, attempting FEC
+[2023-12-09 17:46:54:135135] [E] FEC failed
+[2023-12-09 17:46:54:135135] [W] Missing unit 0x13
+[2023-12-09 17:46:54:135135] [W] Missing unit 0x14
+[2023-12-09 17:46:54:135135] [W] Missing unit 0x15
+[2023-12-09 17:46:54:135135] [W] Missing unit 0x16
+[2023-12-09 17:46:54:136136] [W] Missing unit 0x17
+[2023-12-09 17:46:54:136136] [W] Missing unit 0x18
+[2023-12-09 17:46:54:136136] [W] Missing unit 0x19
+[2023-12-09 17:46:54:136136] [W] Missing unit 0x1a
+[2023-12-09 17:46:54:136136] [W] Missing unit 0x1b
+[2023-12-09 17:46:54:136136] [W] Missing unit 0x1c
+[2023-12-09 17:46:54:136136] [W] Missing unit 0x1d
+[2023-12-09 17:46:54:136136] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:54:136136] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:54:136136] [W] Detected missing or corrupt frame(s) from 195 to 196
+[2023-12-09 17:46:54:136136] [D] StreamConnection reporting corrupt frame(s) from 195 to 195
+[2023-12-09 17:46:54:145145] [I] Frame Processor received 24+0 / 32+5 units, attempting FEC
+[2023-12-09 17:46:54:146146] [E] FEC failed
+[2023-12-09 17:46:54:146146] [W] Missing unit 0x18
+[2023-12-09 17:46:54:146146] [W] Missing unit 0x19
+[2023-12-09 17:46:54:146146] [W] Missing unit 0x1a
+[2023-12-09 17:46:54:146146] [W] Missing unit 0x1b
+[2023-12-09 17:46:54:146146] [W] Missing unit 0x1c
+[2023-12-09 17:46:54:146146] [W] Missing unit 0x1d
+[2023-12-09 17:46:54:146146] [W] Missing unit 0x1e
+[2023-12-09 17:46:54:146146] [W] Missing unit 0x1f
+[2023-12-09 17:46:54:146146] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:54:146146] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:54:146146] [W] Detected missing or corrupt frame(s) from 197 to 198
+[2023-12-09 17:46:54:146146] [D] StreamConnection reporting corrupt frame(s) from 197 to 197
+[2023-12-09 17:46:54:158158] [E] Takion dropping data with seq num 0x102959e1
+[2023-12-09 17:46:54:208208] [W] Requested key stream for key pos 0x803480 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0xb000, populated: 0x20000, min key pos: 0x7d9000, last key pos: 0x803a00
+[2023-12-09 17:46:54:208208] [I] Frame Processor received 46+0 / 52+23 units, attempting FEC
+[2023-12-09 17:46:54:208208] [E] FEC failed
+[2023-12-09 17:46:54:208208] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x7d9000 to 0x803000
+[2023-12-09 17:46:54:208208] [W] Missing unit 0x2e
+[2023-12-09 17:46:54:208208] [W] Missing unit 0x2f
+[2023-12-09 17:46:54:208208] [W] Missing unit 0x30
+[2023-12-09 17:46:54:208208] [W] Missing unit 0x31
+[2023-12-09 17:46:54:208208] [W] Missing unit 0x32
+[2023-12-09 17:46:54:208208] [W] Missing unit 0x33
+[2023-12-09 17:46:54:209209] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:54:209209] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:54:209209] [W] Detected missing or corrupt frame(s) from 200 to 202
+[2023-12-09 17:46:54:209209] [D] StreamConnection reporting corrupt frame(s) from 200 to 201
+[2023-12-09 17:46:54:331331] [W] Requested key stream for key pos 0x86e510 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x18000, populated: 0x20000, min key pos: 0x83b000, last key pos: 0x86ea90
+[2023-12-09 17:46:54:331331] [I] Frame Processor received 18+0 / 87+34 units, attempting FEC
+[2023-12-09 17:46:54:332332] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x83b000 to 0x86e000
+[2023-12-09 17:46:54:332332] [E] FEC failed
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x12
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x13
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x14
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x15
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x16
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x17
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x18
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x19
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x1a
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x1b
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x1c
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x1d
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x1e
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x1f
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x20
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x21
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x22
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x23
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x24
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x25
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x26
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x27
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x28
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x29
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x2a
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x2b
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x2c
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x2d
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x2e
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x2f
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x30
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x31
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x32
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x33
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x34
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x35
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x36
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x37
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x38
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x39
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x3a
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x3b
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x3c
+[2023-12-09 17:46:54:332332] [W] Missing unit 0x3d
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x3e
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x3f
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x40
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x41
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x42
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x43
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x44
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x45
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x46
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x47
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x48
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x49
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x4a
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x4b
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x4c
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x4d
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x4e
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x4f
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x50
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x51
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x52
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x53
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x54
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x55
+[2023-12-09 17:46:54:333333] [W] Missing unit 0x56
+[2023-12-09 17:46:54:333333] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:54:333333] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:54:333333] [W] Detected missing or corrupt frame(s) from 207 to 208
+[2023-12-09 17:46:54:333333] [D] StreamConnection reporting corrupt frame(s) from 207 to 207
+[2023-12-09 17:46:54:366366] [E] Takion dropping data with seq num 0x102959e1
+[2023-12-09 17:46:54:412412] [I] Frame Processor received 18+5 / 27+33 units, attempting FEC
+[2023-12-09 17:46:54:413413] [E] FEC failed
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x12
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x13
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x14
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x15
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x16
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x17
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x18
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x19
+[2023-12-09 17:46:54:413413] [W] Missing unit 0x1a
+[2023-12-09 17:46:54:413413] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:54:413413] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:54:413413] [W] Detected missing or corrupt frame(s) from 212 to 213
+[2023-12-09 17:46:54:413413] [D] StreamConnection reporting corrupt frame(s) from 212 to 212
+[2023-12-09 17:46:54:458458] [I] Frame Processor received 27+16 / 43+45 units, attempting FEC
+[2023-12-09 17:46:54:461461] [I] FEC successful
+[2023-12-09 17:46:54:517517] [W] Detected missing or corrupt frame(s) from 217 to 218
+[2023-12-09 17:46:54:517517] [D] StreamConnection reporting corrupt frame(s) from 217 to 217
+[2023-12-09 17:46:54:527527] [W] Requested key stream for key pos 0x9276a0 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x19000, populated: 0x20000, min key pos: 0x907000, last key pos: 0x927c20
+[2023-12-09 17:46:54:527527] [I] Frame Processor received 20+0 / 28+34 units, attempting FEC
+[2023-12-09 17:46:54:527527] [E] FEC failed
+[2023-12-09 17:46:54:527527] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x907000 to 0x927000
+[2023-12-09 17:46:54:527527] [W] Missing unit 0x14
+[2023-12-09 17:46:54:527527] [W] Missing unit 0x15
+[2023-12-09 17:46:54:527527] [W] Missing unit 0x16
+[2023-12-09 17:46:54:527527] [W] Missing unit 0x17
+[2023-12-09 17:46:54:527527] [W] Missing unit 0x18
+[2023-12-09 17:46:54:527527] [W] Missing unit 0x19
+[2023-12-09 17:46:54:527527] [W] Missing unit 0x1a
+[2023-12-09 17:46:54:527527] [W] Missing unit 0x1b
+[2023-12-09 17:46:54:527527] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:54:527527] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:54:527527] [W] Detected missing or corrupt frame(s) from 217 to 220
+[2023-12-09 17:46:54:527527] [D] StreamConnection reporting corrupt frame(s) from 217 to 219
+[2023-12-09 17:46:54:555555] [I] Frame Processor received 33+6 / 39+44 units, attempting FEC
+[2023-12-09 17:46:54:559559] [I] FEC successful
+[2023-12-09 17:46:54:589589] [E] Takion dropping data with seq num 0x102959e1
+[2023-12-09 17:46:54:623623] [W] Requested key stream for key pos 0x9893d0 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x16000, populated: 0x20000, min key pos: 0x95d000, last key pos: 0x9896e0
+[2023-12-09 17:46:54:623623] [W] Detected missing or corrupt frame(s) from 223 to 225
+[2023-12-09 17:46:54:623623] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x95d000 to 0x989000
+[2023-12-09 17:46:54:623623] [D] StreamConnection reporting corrupt frame(s) from 223 to 224
+[2023-12-09 17:46:54:676676] [I] Frame Processor received 41+2 / 43+36 units, attempting FEC
+[2023-12-09 17:46:54:679679] [I] FEC successful
+[2023-12-09 17:46:54:727727] [I] Frame Processor received 12+0 / 26+25 units, attempting FEC
+[2023-12-09 17:46:54:727727] [E] FEC failed
+[2023-12-09 17:46:54:727727] [W] Missing unit 0xc
+[2023-12-09 17:46:54:727727] [W] Missing unit 0xd
+[2023-12-09 17:46:54:727727] [W] Missing unit 0xe
+[2023-12-09 17:46:54:727727] [W] Missing unit 0xf
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x10
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x11
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x12
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x13
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x14
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x15
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x16
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x17
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x18
+[2023-12-09 17:46:54:727727] [W] Missing unit 0x19
+[2023-12-09 17:46:54:727727] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:54:727727] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:54:727727] [W] Detected missing or corrupt frame(s) from 230 to 232
+[2023-12-09 17:46:54:727727] [D] StreamConnection reporting corrupt frame(s) from 230 to 231
+[2023-12-09 17:46:54:766766] [E] Takion dropping data with seq num 0x102959e1
+[2023-12-09 17:46:54:812812] [I] Frame Processor received 5+14 / 25+26 units, attempting FEC
+[2023-12-09 17:46:54:813813] [E] FEC failed
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x5
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x6
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x7
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x8
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x9
+[2023-12-09 17:46:54:813813] [W] Missing unit 0xa
+[2023-12-09 17:46:54:813813] [W] Missing unit 0xb
+[2023-12-09 17:46:54:813813] [W] Missing unit 0xc
+[2023-12-09 17:46:54:813813] [W] Missing unit 0xd
+[2023-12-09 17:46:54:813813] [W] Missing unit 0xe
+[2023-12-09 17:46:54:813813] [W] Missing unit 0xf
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x10
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x11
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x12
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x13
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x14
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x15
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x16
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x17
+[2023-12-09 17:46:54:813813] [W] Missing unit 0x18
+[2023-12-09 17:46:54:813813] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:46:54:813813] [W] Video callback did not process frame successfully.
+[2023-12-09 17:46:54:813813] [W] Detected missing or corrupt frame(s) from 236 to 237
+[2023-12-09 17:46:54:813813] [D] StreamConnection reporting corrupt frame(s) from 236 to 236
+[2023-12-09 17:46:54:904904] [W] Detected missing or corrupt frame(s) from 241 to 242
+[2023-12-09 17:46:54:904904] [D] StreamConnection reporting corrupt frame(s) from 241 to 241
+[2023-12-09 17:46:55:136136] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:46:59:985985] [W] Requested key stream for key pos 0x13bcfb0 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x14000, populated: 0x20000, min key pos: 0x139d000, last key pos: 0x13bd0a0
+[2023-12-09 17:46:59:985985] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x139d000 to 0x13bd000
+[2023-12-09 17:46:59:985985] [W] Detected missing or corrupt frame(s) from 546 to 547
+[2023-12-09 17:46:59:985985] [D] StreamConnection reporting corrupt frame(s) from 546 to 546
+[2023-12-09 17:47:00:127127] [W] Detected missing or corrupt frame(s) from 553 to 554
+[2023-12-09 17:47:00:127127] [D] StreamConnection reporting corrupt frame(s) from 553 to 553
+[2023-12-09 17:47:00:136136] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:47:00:192192] [I] Frame Processor received 0+11 / 27+15 units, attempting FEC
+[2023-12-09 17:47:00:193193] [E] FEC failed
+[2023-12-09 17:47:00:193193] [W] Missing unit 0
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x1
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x2
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x3
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x4
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x5
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x6
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x7
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x8
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x9
+[2023-12-09 17:47:00:193193] [W] Missing unit 0xa
+[2023-12-09 17:47:00:193193] [W] Missing unit 0xb
+[2023-12-09 17:47:00:193193] [W] Missing unit 0xc
+[2023-12-09 17:47:00:193193] [W] Missing unit 0xd
+[2023-12-09 17:47:00:193193] [W] Missing unit 0xe
+[2023-12-09 17:47:00:193193] [W] Missing unit 0xf
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x10
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x11
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x12
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x13
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x14
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x15
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x16
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x17
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x18
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x19
+[2023-12-09 17:47:00:193193] [W] Missing unit 0x1a
+[2023-12-09 17:47:00:193193] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:00:193193] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:00:193193] [W] Detected missing or corrupt frame(s) from 557 to 558
+[2023-12-09 17:47:00:193193] [D] StreamConnection reporting corrupt frame(s) from 557 to 557
+[2023-12-09 17:47:00:194194] [I] Frame Processor received 18+6 / 27+6 units, attempting FEC
+[2023-12-09 17:47:00:194194] [E] FEC failed
+[2023-12-09 17:47:00:194194] [W] Missing unit 0x6
+[2023-12-09 17:47:00:194194] [W] Missing unit 0x7
+[2023-12-09 17:47:00:194194] [W] Missing unit 0x8
+[2023-12-09 17:47:00:194194] [W] Missing unit 0x9
+[2023-12-09 17:47:00:194194] [W] Missing unit 0xa
+[2023-12-09 17:47:00:194194] [W] Missing unit 0xb
+[2023-12-09 17:47:00:194194] [W] Missing unit 0xc
+[2023-12-09 17:47:00:194194] [W] Missing unit 0xd
+[2023-12-09 17:47:00:194194] [W] Missing unit 0xe
+[2023-12-09 17:47:00:194194] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:00:194194] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:00:194194] [W] Detected missing or corrupt frame(s) from 557 to 559
+[2023-12-09 17:47:00:194194] [D] StreamConnection reporting corrupt frame(s) from 557 to 558
+[2023-12-09 17:47:00:422422] [I] Frame Processor received 26+11 / 37+14 units, attempting FEC
+[2023-12-09 17:47:00:423423] [I] FEC successful
+[2023-12-09 17:47:05:136136] [W] Detected missing or corrupt frame(s) from 852 to 856
+[2023-12-09 17:47:05:136136] [D] StreamConnection reporting corrupt frame(s) from 852 to 855
+[2023-12-09 17:47:05:137137] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:47:05:295295] [I] Frame Processor received 25+0 / 31+4 units, attempting FEC
+[2023-12-09 17:47:05:295295] [E] FEC failed
+[2023-12-09 17:47:05:295295] [W] Missing unit 0x19
+[2023-12-09 17:47:05:295295] [W] Missing unit 0x1a
+[2023-12-09 17:47:05:295295] [W] Missing unit 0x1b
+[2023-12-09 17:47:05:295295] [W] Missing unit 0x1c
+[2023-12-09 17:47:05:295295] [W] Missing unit 0x1d
+[2023-12-09 17:47:05:295295] [W] Missing unit 0x1e
+[2023-12-09 17:47:05:295295] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:05:295295] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:05:295295] [W] Detected missing or corrupt frame(s) from 862 to 863
+[2023-12-09 17:47:05:295295] [D] StreamConnection reporting corrupt frame(s) from 862 to 862
+[2023-12-09 17:47:05:307307] [I] Frame Processor received 11+0 / 31+4 units, attempting FEC
+[2023-12-09 17:47:05:307307] [E] FEC failed
+[2023-12-09 17:47:05:307307] [W] Missing unit 0xb
+[2023-12-09 17:47:05:307307] [W] Missing unit 0xc
+[2023-12-09 17:47:05:307307] [W] Missing unit 0xd
+[2023-12-09 17:47:05:307307] [W] Missing unit 0xe
+[2023-12-09 17:47:05:307307] [W] Missing unit 0xf
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x10
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x11
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x12
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x13
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x14
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x15
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x16
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x17
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x18
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x19
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x1a
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x1b
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x1c
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x1d
+[2023-12-09 17:47:05:307307] [W] Missing unit 0x1e
+[2023-12-09 17:47:05:307307] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:05:307307] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:05:307307] [W] Detected missing or corrupt frame(s) from 864 to 865
+[2023-12-09 17:47:05:307307] [D] StreamConnection reporting corrupt frame(s) from 864 to 864
+[2023-12-09 17:47:05:409409] [W] Detected missing or corrupt frame(s) from 870 to 872
+[2023-12-09 17:47:05:409409] [D] StreamConnection reporting corrupt frame(s) from 870 to 871
+[2023-12-09 17:47:05:536536] [I] Frame Processor received 2+0 / 4+2 units, attempting FEC
+[2023-12-09 17:47:05:536536] [E] FEC failed
+[2023-12-09 17:47:05:536536] [W] Missing unit 0x2
+[2023-12-09 17:47:05:536536] [W] Missing unit 0x3
+[2023-12-09 17:47:05:537537] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:05:537537] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:05:537537] [W] Detected missing or corrupt frame(s) from 877 to 878
+[2023-12-09 17:47:05:537537] [D] StreamConnection reporting corrupt frame(s) from 877 to 877
+[2023-12-09 17:47:05:619619] [I] Frame Processor received 23+5 / 40+5 units, attempting FEC
+[2023-12-09 17:47:05:619619] [E] FEC failed
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x13
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x14
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x15
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x16
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x17
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x18
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x19
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x1a
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x1b
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x1c
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x1d
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x1e
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x1f
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x20
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x21
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x22
+[2023-12-09 17:47:05:619619] [W] Missing unit 0x23
+[2023-12-09 17:47:05:619619] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:05:619619] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:05:619619] [W] Detected missing or corrupt frame(s) from 882 to 883
+[2023-12-09 17:47:05:619619] [D] StreamConnection reporting corrupt frame(s) from 882 to 882
+[2023-12-09 17:47:05:630630] [I] Frame Processor received 20+0 / 31+5 units, attempting FEC
+[2023-12-09 17:47:05:630630] [E] FEC failed
+[2023-12-09 17:47:05:630630] [W] Missing unit 0x14
+[2023-12-09 17:47:05:630630] [W] Missing unit 0x15
+[2023-12-09 17:47:05:630630] [W] Missing unit 0x16
+[2023-12-09 17:47:05:630630] [W] Missing unit 0x17
+[2023-12-09 17:47:05:630630] [W] Missing unit 0x18
+[2023-12-09 17:47:05:630630] [W] Missing unit 0x19
+[2023-12-09 17:47:05:631631] [W] Missing unit 0x1a
+[2023-12-09 17:47:05:631631] [W] Missing unit 0x1b
+[2023-12-09 17:47:05:631631] [W] Missing unit 0x1c
+[2023-12-09 17:47:05:631631] [W] Missing unit 0x1d
+[2023-12-09 17:47:05:631631] [W] Missing unit 0x1e
+[2023-12-09 17:47:05:631631] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:05:631631] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:05:631631] [W] Detected missing or corrupt frame(s) from 884 to 885
+[2023-12-09 17:47:05:631631] [D] StreamConnection reporting corrupt frame(s) from 884 to 884
+[2023-12-09 17:47:05:734734] [I] Frame Processor received 44+2 / 46+6 units, attempting FEC
+[2023-12-09 17:47:05:734734] [I] FEC successful
+[2023-12-09 17:47:05:806806] [I] Frame Processor received 21+4 / 30+4 units, attempting FEC
+[2023-12-09 17:47:05:806806] [E] FEC failed
+[2023-12-09 17:47:05:806806] [W] Missing unit 0x8
+[2023-12-09 17:47:05:806806] [W] Missing unit 0x9
+[2023-12-09 17:47:05:806806] [W] Missing unit 0xa
+[2023-12-09 17:47:05:806806] [W] Missing unit 0xb
+[2023-12-09 17:47:05:806806] [W] Missing unit 0xc
+[2023-12-09 17:47:05:806806] [W] Missing unit 0xd
+[2023-12-09 17:47:05:806806] [W] Missing unit 0xe
+[2023-12-09 17:47:05:806806] [W] Missing unit 0xf
+[2023-12-09 17:47:05:806806] [W] Missing unit 0x10
+[2023-12-09 17:47:05:806806] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:05:806806] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:05:806806] [W] Detected missing or corrupt frame(s) from 893 to 894
+[2023-12-09 17:47:05:806806] [D] StreamConnection reporting corrupt frame(s) from 893 to 893
+[2023-12-09 17:47:05:881881] [W] Detected missing or corrupt frame(s) from 898 to 899
+[2023-12-09 17:47:05:881881] [D] StreamConnection reporting corrupt frame(s) from 898 to 898
+[2023-12-09 17:47:05:887887] [I] Frame Processor received 3+12 / 33+12 units, attempting FEC
+[2023-12-09 17:47:05:887887] [E] FEC failed
+[2023-12-09 17:47:05:887887] [W] Missing unit 0
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x1
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x2
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x3
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x4
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x5
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x6
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x7
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x8
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x9
+[2023-12-09 17:47:05:887887] [W] Missing unit 0xa
+[2023-12-09 17:47:05:887887] [W] Missing unit 0xb
+[2023-12-09 17:47:05:887887] [W] Missing unit 0xc
+[2023-12-09 17:47:05:887887] [W] Missing unit 0xd
+[2023-12-09 17:47:05:887887] [W] Missing unit 0xe
+[2023-12-09 17:47:05:887887] [W] Missing unit 0xf
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x10
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x11
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x12
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x13
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x14
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x15
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x16
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x17
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x18
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x19
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x1a
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x1b
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x1c
+[2023-12-09 17:47:05:887887] [W] Missing unit 0x1d
+[2023-12-09 17:47:05:887887] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:05:887887] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:05:887887] [W] Detected missing or corrupt frame(s) from 898 to 900
+[2023-12-09 17:47:05:887887] [D] StreamConnection reporting corrupt frame(s) from 898 to 899
+[2023-12-09 17:47:05:986986] [I] Frame Processor received 6+0 / 34+12 units, attempting FEC
+[2023-12-09 17:47:05:986986] [E] FEC failed
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x6
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x7
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x8
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x9
+[2023-12-09 17:47:05:986986] [W] Missing unit 0xa
+[2023-12-09 17:47:05:986986] [W] Missing unit 0xb
+[2023-12-09 17:47:05:986986] [W] Missing unit 0xc
+[2023-12-09 17:47:05:986986] [W] Missing unit 0xd
+[2023-12-09 17:47:05:986986] [W] Missing unit 0xe
+[2023-12-09 17:47:05:986986] [W] Missing unit 0xf
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x10
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x11
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x12
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x13
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x14
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x15
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x16
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x17
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x18
+[2023-12-09 17:47:05:986986] [W] Missing unit 0x19
+[2023-12-09 17:47:05:987987] [W] Missing unit 0x1a
+[2023-12-09 17:47:05:987987] [W] Missing unit 0x1b
+[2023-12-09 17:47:05:987987] [W] Missing unit 0x1c
+[2023-12-09 17:47:05:987987] [W] Missing unit 0x1d
+[2023-12-09 17:47:05:987987] [W] Missing unit 0x1e
+[2023-12-09 17:47:05:987987] [W] Missing unit 0x1f
+[2023-12-09 17:47:05:987987] [W] Missing unit 0x20
+[2023-12-09 17:47:05:987987] [W] Missing unit 0x21
+[2023-12-09 17:47:05:987987] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:05:987987] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:05:987987] [W] Detected missing or corrupt frame(s) from 903 to 904
+[2023-12-09 17:47:05:987987] [D] StreamConnection reporting corrupt frame(s) from 903 to 903
+[2023-12-09 17:47:05:999999] [I] Frame Processor received 32+0 / 39+15 units, attempting FEC
+[2023-12-09 17:47:06:000000] [E] FEC failed
+[2023-12-09 17:47:06:000000] [W] Missing unit 0x20
+[2023-12-09 17:47:06:000000] [W] Missing unit 0x21
+[2023-12-09 17:47:06:000000] [W] Missing unit 0x22
+[2023-12-09 17:47:06:000000] [W] Missing unit 0x23
+[2023-12-09 17:47:06:000000] [W] Missing unit 0x24
+[2023-12-09 17:47:06:000000] [W] Missing unit 0x25
+[2023-12-09 17:47:06:000000] [W] Missing unit 0x26
+[2023-12-09 17:47:06:000000] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:06:000000] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:06:000000] [W] Detected missing or corrupt frame(s) from 905 to 906
+[2023-12-09 17:47:06:000000] [D] StreamConnection reporting corrupt frame(s) from 905 to 905
+[2023-12-09 17:47:06:081081] [I] Frame Processor received 4+14 / 33+14 units, attempting FEC
+[2023-12-09 17:47:06:081081] [E] FEC failed
+[2023-12-09 17:47:06:081081] [W] Missing unit 0
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x1
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x2
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x3
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x4
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x5
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x6
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x7
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x8
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x9
+[2023-12-09 17:47:06:081081] [W] Missing unit 0xa
+[2023-12-09 17:47:06:081081] [W] Missing unit 0xb
+[2023-12-09 17:47:06:081081] [W] Missing unit 0xc
+[2023-12-09 17:47:06:081081] [W] Missing unit 0xd
+[2023-12-09 17:47:06:081081] [W] Missing unit 0xe
+[2023-12-09 17:47:06:081081] [W] Missing unit 0xf
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x10
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x11
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x12
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x13
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x14
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x15
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x16
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x17
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x18
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x19
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x1a
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x1b
+[2023-12-09 17:47:06:081081] [W] Missing unit 0x1c
+[2023-12-09 17:47:06:081081] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:06:081081] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:06:081081] [W] Detected missing or corrupt frame(s) from 909 to 910
+[2023-12-09 17:47:06:081081] [D] StreamConnection reporting corrupt frame(s) from 909 to 909
+[2023-12-09 17:47:06:093093] [I] Frame Processor received 15+14 / 33+14 units, attempting FEC
+[2023-12-09 17:47:06:094094] [E] FEC failed
+[2023-12-09 17:47:06:094094] [W] Missing unit 0xc
+[2023-12-09 17:47:06:094094] [W] Missing unit 0xd
+[2023-12-09 17:47:06:094094] [W] Missing unit 0xe
+[2023-12-09 17:47:06:094094] [W] Missing unit 0xf
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x10
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x11
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x12
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x13
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x14
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x15
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x16
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x17
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x18
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x19
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x1a
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x1b
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x1c
+[2023-12-09 17:47:06:094094] [W] Missing unit 0x1d
+[2023-12-09 17:47:06:094094] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:06:094094] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:06:094094] [W] Detected missing or corrupt frame(s) from 911 to 912
+[2023-12-09 17:47:06:094094] [D] StreamConnection reporting corrupt frame(s) from 911 to 911
+[2023-12-09 17:47:06:227227] [I] Frame Processor received 0+3 / 7+11 units, attempting FEC
+[2023-12-09 17:47:06:227227] [E] FEC failed
+[2023-12-09 17:47:06:227227] [W] Missing unit 0
+[2023-12-09 17:47:06:227227] [W] Missing unit 0x1
+[2023-12-09 17:47:06:227227] [W] Missing unit 0x2
+[2023-12-09 17:47:06:227227] [W] Missing unit 0x3
+[2023-12-09 17:47:06:227227] [W] Missing unit 0x4
+[2023-12-09 17:47:06:227227] [W] Missing unit 0x5
+[2023-12-09 17:47:06:227227] [W] Missing unit 0x6
+[2023-12-09 17:47:06:228228] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:06:228228] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:06:228228] [W] Detected missing or corrupt frame(s) from 918 to 919
+[2023-12-09 17:47:06:228228] [D] StreamConnection reporting corrupt frame(s) from 918 to 918
+[2023-12-09 17:47:06:250250] [W] Detected missing or corrupt frame(s) from 920 to 921
+[2023-12-09 17:47:06:250250] [D] StreamConnection reporting corrupt frame(s) from 920 to 920
+[2023-12-09 17:47:06:295295] [I] Frame Processor received 16+7 / 23+25 units, attempting FEC
+[2023-12-09 17:47:06:296296] [I] FEC successful
+[2023-12-09 17:47:06:385385] [I] Frame Processor received 7+1 / 8+12 units, attempting FEC
+[2023-12-09 17:47:06:385385] [I] FEC successful
+[2023-12-09 17:47:06:404404] [I] Frame Processor received 21+0 / 27+16 units, attempting FEC
+[2023-12-09 17:47:06:404404] [E] FEC failed
+[2023-12-09 17:47:06:404404] [W] Missing unit 0x15
+[2023-12-09 17:47:06:404404] [W] Missing unit 0x16
+[2023-12-09 17:47:06:404404] [W] Missing unit 0x17
+[2023-12-09 17:47:06:404404] [W] Missing unit 0x18
+[2023-12-09 17:47:06:404404] [W] Missing unit 0x19
+[2023-12-09 17:47:06:404404] [W] Missing unit 0x1a
+[2023-12-09 17:47:06:405405] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:06:405405] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:06:405405] [W] Detected missing or corrupt frame(s) from 929 to 931
+[2023-12-09 17:47:06:405405] [D] StreamConnection reporting corrupt frame(s) from 929 to 930
+[2023-12-09 17:47:06:517517] [I] Frame Processor received 14+2 / 16+12 units, attempting FEC
+[2023-12-09 17:47:06:518518] [I] FEC successful
+[2023-12-09 17:47:06:592592] [I] Frame Processor received 8+8 / 16+12 units, attempting FEC
+[2023-12-09 17:47:06:592592] [I] FEC successful
+[2023-12-09 17:47:06:609609] [I] Frame Processor received 14+5 / 21+13 units, attempting FEC
+[2023-12-09 17:47:06:609609] [E] FEC failed
+[2023-12-09 17:47:06:609609] [W] Missing unit 0
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x1
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x2
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x3
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x4
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x5
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x6
+[2023-12-09 17:47:06:609609] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:06:609609] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:06:609609] [W] Detected missing or corrupt frame(s) from 941 to 942
+[2023-12-09 17:47:06:609609] [D] StreamConnection reporting corrupt frame(s) from 941 to 941
+[2023-12-09 17:47:06:609609] [I] Frame Processor received 1+9 / 11+9 units, attempting FEC
+[2023-12-09 17:47:06:609609] [E] FEC failed
+[2023-12-09 17:47:06:609609] [W] Missing unit 0
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x1
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x2
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x3
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x4
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x5
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x6
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x7
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x8
+[2023-12-09 17:47:06:609609] [W] Missing unit 0x9
+[2023-12-09 17:47:06:610610] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:06:610610] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:06:610610] [W] Detected missing or corrupt frame(s) from 941 to 943
+[2023-12-09 17:47:06:610610] [D] StreamConnection reporting corrupt frame(s) from 941 to 942
+[2023-12-09 17:47:06:784784] [E] Takion dropping data with seq num 0x102959f8
+[2023-12-09 17:47:07:061061] [W] Requested key stream for key pos 0x1f05950 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x7000, populated: 0x20000, min key pos: 0x1ee4000, last key pos: 0x1f05ed0
+[2023-12-09 17:47:07:062062] [W] Detected missing or corrupt frame(s) from 969 to 970
+[2023-12-09 17:47:07:062062] [D] StreamConnection reporting corrupt frame(s) from 969 to 969
+[2023-12-09 17:47:07:062062] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x1ee4000 to 0x1f05000
+[2023-12-09 17:47:07:074074] [I] Frame Processor received 2+11 / 21+11 units, attempting FEC
+[2023-12-09 17:47:07:074074] [E] FEC failed
+[2023-12-09 17:47:07:074074] [W] Missing unit 0
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x1
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x2
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x3
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x4
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x5
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x6
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x7
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x8
+[2023-12-09 17:47:07:074074] [W] Missing unit 0x9
+[2023-12-09 17:47:07:074074] [W] Missing unit 0xa
+[2023-12-09 17:47:07:074074] [W] Missing unit 0xb
+[2023-12-09 17:47:07:074074] [W] Missing unit 0xc
+[2023-12-09 17:47:07:075075] [W] Missing unit 0xd
+[2023-12-09 17:47:07:075075] [W] Missing unit 0xe
+[2023-12-09 17:47:07:075075] [W] Missing unit 0xf
+[2023-12-09 17:47:07:075075] [W] Missing unit 0x10
+[2023-12-09 17:47:07:075075] [W] Missing unit 0x11
+[2023-12-09 17:47:07:075075] [W] Missing unit 0x12
+[2023-12-09 17:47:07:075075] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:07:075075] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:07:075075] [W] Detected missing or corrupt frame(s) from 969 to 971
+[2023-12-09 17:47:07:075075] [D] StreamConnection reporting corrupt frame(s) from 969 to 970
+[2023-12-09 17:47:07:617617] [W] Detected missing or corrupt frame(s) from 1002 to 1003
+[2023-12-09 17:47:07:618618] [D] StreamConnection reporting corrupt frame(s) from 1002 to 1002
+[2023-12-09 17:47:07:622622] [I] Frame Processor received 0+2 / 26+5 units, attempting FEC
+[2023-12-09 17:47:07:622622] [E] FEC failed
+[2023-12-09 17:47:07:622622] [W] Missing unit 0
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x1
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x2
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x3
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x4
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x5
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x6
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x7
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x8
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x9
+[2023-12-09 17:47:07:622622] [W] Missing unit 0xa
+[2023-12-09 17:47:07:622622] [W] Missing unit 0xb
+[2023-12-09 17:47:07:622622] [W] Missing unit 0xc
+[2023-12-09 17:47:07:622622] [W] Missing unit 0xd
+[2023-12-09 17:47:07:622622] [W] Missing unit 0xe
+[2023-12-09 17:47:07:622622] [W] Missing unit 0xf
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x10
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x11
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x12
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x13
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x14
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x15
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x16
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x17
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x18
+[2023-12-09 17:47:07:622622] [W] Missing unit 0x19
+[2023-12-09 17:47:07:622622] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:07:622622] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:07:622622] [W] Detected missing or corrupt frame(s) from 1002 to 1004
+[2023-12-09 17:47:07:622622] [D] StreamConnection reporting corrupt frame(s) from 1002 to 1003
+[2023-12-09 17:47:07:843843] [I] Frame Processor received 17+9 / 26+12 units, attempting FEC
+[2023-12-09 17:47:07:844844] [I] FEC successful
+[2023-12-09 17:47:07:909909] [I] Frame Processor received 26+2 / 28+12 units, attempting FEC
+[2023-12-09 17:47:07:910910] [I] FEC successful
+[2023-12-09 17:47:07:964964] [W] Detected missing or corrupt frame(s) from 1022 to 1023
+[2023-12-09 17:47:07:964964] [D] StreamConnection reporting corrupt frame(s) from 1022 to 1022
+[2023-12-09 17:47:07:964964] [I] Frame Processor received 0+5 / 27+12 units, attempting FEC
+[2023-12-09 17:47:07:964964] [E] FEC failed
+[2023-12-09 17:47:07:964964] [W] Missing unit 0
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x1
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x2
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x3
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x4
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x5
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x6
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x7
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x8
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x9
+[2023-12-09 17:47:07:964964] [W] Missing unit 0xa
+[2023-12-09 17:47:07:964964] [W] Missing unit 0xb
+[2023-12-09 17:47:07:964964] [W] Missing unit 0xc
+[2023-12-09 17:47:07:964964] [W] Missing unit 0xd
+[2023-12-09 17:47:07:964964] [W] Missing unit 0xe
+[2023-12-09 17:47:07:964964] [W] Missing unit 0xf
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x10
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x11
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x12
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x13
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x14
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x15
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x16
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x17
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x18
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x19
+[2023-12-09 17:47:07:964964] [W] Missing unit 0x1a
+[2023-12-09 17:47:07:965965] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:07:965965] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:07:965965] [W] Detected missing or corrupt frame(s) from 1022 to 1024
+[2023-12-09 17:47:07:965965] [D] StreamConnection reporting corrupt frame(s) from 1022 to 1023
+[2023-12-09 17:47:08:092092] [I] Frame Processor received 0+2 / 5+6 units, attempting FEC
+[2023-12-09 17:47:08:092092] [E] FEC failed
+[2023-12-09 17:47:08:092092] [W] Missing unit 0
+[2023-12-09 17:47:08:092092] [W] Missing unit 0x1
+[2023-12-09 17:47:08:092092] [W] Missing unit 0x2
+[2023-12-09 17:47:08:092092] [W] Missing unit 0x3
+[2023-12-09 17:47:08:092092] [W] Missing unit 0x4
+[2023-12-09 17:47:08:092092] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:08:092092] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:08:092092] [W] Detected missing or corrupt frame(s) from 1030 to 1031
+[2023-12-09 17:47:08:092092] [D] StreamConnection reporting corrupt frame(s) from 1030 to 1030
+[2023-12-09 17:47:08:774774] [I] Frame Processor received 17+0 / 22+6 units, attempting FEC
+[2023-12-09 17:47:08:774774] [E] FEC failed
+[2023-12-09 17:47:08:774774] [W] Missing unit 0x11
+[2023-12-09 17:47:08:774774] [W] Missing unit 0x12
+[2023-12-09 17:47:08:774774] [W] Missing unit 0x13
+[2023-12-09 17:47:08:774774] [W] Missing unit 0x14
+[2023-12-09 17:47:08:775775] [W] Missing unit 0x15
+[2023-12-09 17:47:08:775775] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:08:775775] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:08:775775] [W] Detected missing or corrupt frame(s) from 1071 to 1073
+[2023-12-09 17:47:08:775775] [D] StreamConnection reporting corrupt frame(s) from 1071 to 1072
+[2023-12-09 17:47:08:784784] [I] Frame Processor received 20+3 / 23+7 units, attempting FEC
+[2023-12-09 17:47:08:785785] [I] FEC successful
+[2023-12-09 17:47:09:036036] [I] Frame Processor received 0+3 / 3+32 units, attempting FEC
+[2023-12-09 17:47:09:036036] [I] FEC successful
+[2023-12-09 17:47:09:046046] [I] Frame Processor received 19+6 / 25+9 units, attempting FEC
+[2023-12-09 17:47:09:047047] [I] FEC successful
+[2023-12-09 17:47:09:076076] [I] Frame Processor received 8+2 / 10+25 units, attempting FEC
+[2023-12-09 17:47:09:077077] [I] FEC successful
+[2023-12-09 17:47:09:091091] [I] Frame Processor received 22+1 / 23+12 units, attempting FEC
+[2023-12-09 17:47:09:092092] [I] FEC successful
+[2023-12-09 17:47:09:129129] [W] Requested key stream for key pos 0x22c2710 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x19000, populated: 0x20000, min key pos: 0x229e000, last key pos: 0x22c2c90
+[2023-12-09 17:47:09:129129] [W] Detected missing or corrupt frame(s) from 1091 to 1092
+[2023-12-09 17:47:09:129129] [D] StreamConnection reporting corrupt frame(s) from 1091 to 1091
+[2023-12-09 17:47:09:129129] [W] Requested key stream for key pos 0x22c2ca0 on GKCrypt 3, but it's not in the buffer: key buf size 0x20000, start offset: 0x19000, populated: 0x20000, min key pos: 0x229e000, last key pos: 0x22c3220
+[2023-12-09 17:47:09:129129] [W] Already requested a higher key pos than in the buffer, skipping ahead from min 0x229e000 to 0x22c3000
+[2023-12-09 17:47:09:130130] [I] Frame Processor received 6+1 / 7+27 units, attempting FEC
+[2023-12-09 17:47:09:130130] [I] FEC successful
+[2023-12-09 17:47:09:145145] [I] Frame Processor received 4+7 / 25+10 units, attempting FEC
+[2023-12-09 17:47:09:145145] [E] FEC failed
+[2023-12-09 17:47:09:145145] [W] Missing unit 0x4
+[2023-12-09 17:47:09:145145] [W] Missing unit 0x5
+[2023-12-09 17:47:09:145145] [W] Missing unit 0x6
+[2023-12-09 17:47:09:145145] [W] Missing unit 0x7
+[2023-12-09 17:47:09:145145] [W] Missing unit 0x8
+[2023-12-09 17:47:09:145145] [W] Missing unit 0x9
+[2023-12-09 17:47:09:145145] [W] Missing unit 0xa
+[2023-12-09 17:47:09:145145] [W] Missing unit 0xb
+[2023-12-09 17:47:09:145145] [W] Missing unit 0xc
+[2023-12-09 17:47:09:146146] [W] Missing unit 0xd
+[2023-12-09 17:47:09:146146] [W] Missing unit 0xe
+[2023-12-09 17:47:09:146146] [W] Missing unit 0xf
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x10
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x11
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x12
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x13
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x14
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x15
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x16
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x17
+[2023-12-09 17:47:09:146146] [W] Missing unit 0x18
+[2023-12-09 17:47:09:146146] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:09:146146] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:09:146146] [W] Detected missing or corrupt frame(s) from 1093 to 1094
+[2023-12-09 17:47:09:146146] [D] StreamConnection reporting corrupt frame(s) from 1093 to 1093
+[2023-12-09 17:47:09:162162] [I] Frame Processor received 10+11 / 23+11 units, attempting FEC
+[2023-12-09 17:47:09:162162] [E] FEC failed
+[2023-12-09 17:47:09:162162] [W] Missing unit 0
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x1
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x2
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x3
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x4
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x5
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x6
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x7
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x8
+[2023-12-09 17:47:09:162162] [W] Missing unit 0x9
+[2023-12-09 17:47:09:162162] [W] Missing unit 0xa
+[2023-12-09 17:47:09:162162] [W] Missing unit 0xb
+[2023-12-09 17:47:09:162162] [W] Missing unit 0xc
+[2023-12-09 17:47:09:163163] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:09:163163] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:09:163163] [W] Detected missing or corrupt frame(s) from 1095 to 1096
+[2023-12-09 17:47:09:163163] [D] StreamConnection reporting corrupt frame(s) from 1095 to 1095
+[2023-12-09 17:47:09:229229] [I] Frame Processor received 21+7 / 28+33 units, attempting FEC
+[2023-12-09 17:47:09:231231] [I] FEC successful
+[2023-12-09 17:47:09:293293] [I] Frame Processor received 17+4 / 21+13 units, attempting FEC
+[2023-12-09 17:47:09:294294] [I] FEC successful
+[2023-12-09 17:47:09:325325] [I] Frame Processor received 14+5 / 19+15 units, attempting FEC
+[2023-12-09 17:47:09:325325] [I] FEC successful
+[2023-12-09 17:47:09:350350] [I] Frame Processor received 14+7 / 21+13 units, attempting FEC
+[2023-12-09 17:47:09:351351] [I] FEC successful
+[2023-12-09 17:47:09:374374] [I] Frame Processor received 17+3 / 20+14 units, attempting FEC
+[2023-12-09 17:47:09:374374] [I] FEC successful
+[2023-12-09 17:47:09:740740] [I] Frame Processor received 7+0 / 18+9 units, attempting FEC
+[2023-12-09 17:47:09:740740] [E] FEC failed
+[2023-12-09 17:47:09:740740] [W] Missing unit 0x7
+[2023-12-09 17:47:09:740740] [W] Missing unit 0x8
+[2023-12-09 17:47:09:740740] [W] Missing unit 0x9
+[2023-12-09 17:47:09:740740] [W] Missing unit 0xa
+[2023-12-09 17:47:09:740740] [W] Missing unit 0xb
+[2023-12-09 17:47:09:740740] [W] Missing unit 0xc
+[2023-12-09 17:47:09:740740] [W] Missing unit 0xd
+[2023-12-09 17:47:09:740740] [W] Missing unit 0xe
+[2023-12-09 17:47:09:740740] [W] Missing unit 0xf
+[2023-12-09 17:47:09:740740] [W] Missing unit 0x10
+[2023-12-09 17:47:09:740740] [W] Missing unit 0x11
+[2023-12-09 17:47:09:741741] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:09:741741] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:09:741741] [W] Detected missing or corrupt frame(s) from 1129 to 1131
+[2023-12-09 17:47:09:741741] [D] StreamConnection reporting corrupt frame(s) from 1129 to 1130
+[2023-12-09 17:47:10:091091] [I] Frame Processor received 7+0 / 8+6 units, attempting FEC
+[2023-12-09 17:47:10:091091] [E] FEC failed
+[2023-12-09 17:47:10:091091] [W] Missing unit 0x7
+[2023-12-09 17:47:10:091091] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:10:091091] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:10:091091] [W] Detected missing or corrupt frame(s) from 1150 to 1152
+[2023-12-09 17:47:10:091091] [D] StreamConnection reporting corrupt frame(s) from 1150 to 1151
+[2023-12-09 17:47:10:136136] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:47:10:478478] [W] Detected missing or corrupt frame(s) from 1174 to 1175
+[2023-12-09 17:47:10:478478] [D] StreamConnection reporting corrupt frame(s) from 1174 to 1174
+[2023-12-09 17:47:10:485485] [I] Frame Processor received 9+6 / 15+6 units, attempting FEC
+[2023-12-09 17:47:10:485485] [I] FEC successful
+[2023-12-09 17:47:11:308308] [W] Detected missing or corrupt frame(s) from 1223 to 1225
+[2023-12-09 17:47:11:308308] [D] StreamConnection reporting corrupt frame(s) from 1223 to 1224
+[2023-12-09 17:47:12:410410] [I] Frame Processor received 4+0 / 15+4 units, attempting FEC
+[2023-12-09 17:47:12:410410] [E] FEC failed
+[2023-12-09 17:47:12:410410] [W] Missing unit 0x4
+[2023-12-09 17:47:12:410410] [W] Missing unit 0x5
+[2023-12-09 17:47:12:410410] [W] Missing unit 0x6
+[2023-12-09 17:47:12:410410] [W] Missing unit 0x7
+[2023-12-09 17:47:12:410410] [W] Missing unit 0x8
+[2023-12-09 17:47:12:410410] [W] Missing unit 0x9
+[2023-12-09 17:47:12:410410] [W] Missing unit 0xa
+[2023-12-09 17:47:12:410410] [W] Missing unit 0xb
+[2023-12-09 17:47:12:410410] [W] Missing unit 0xc
+[2023-12-09 17:47:12:410410] [W] Missing unit 0xd
+[2023-12-09 17:47:12:410410] [W] Missing unit 0xe
+[2023-12-09 17:47:12:410410] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:12:410410] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:12:410410] [W] Detected missing or corrupt frame(s) from 1287 to 1289
+[2023-12-09 17:47:12:410410] [D] StreamConnection reporting corrupt frame(s) from 1287 to 1288
+[2023-12-09 17:47:15:137137] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:47:20:137137] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:47:20:736736] [W] Detected missing or corrupt frame(s) from 1777 to 1778
+[2023-12-09 17:47:20:736736] [D] StreamConnection reporting corrupt frame(s) from 1777 to 1777
+[2023-12-09 17:47:21:771771] [W] Detected missing or corrupt frame(s) from 1837 to 1838
+[2023-12-09 17:47:21:771771] [D] StreamConnection reporting corrupt frame(s) from 1837 to 1837
+[2023-12-09 17:47:21:804804] [I] Frame Processor received 1+1 / 4+1 units, attempting FEC
+[2023-12-09 17:47:21:804804] [E] FEC failed
+[2023-12-09 17:47:21:804804] [W] Missing unit 0
+[2023-12-09 17:47:21:804804] [W] Missing unit 0x1
+[2023-12-09 17:47:21:804804] [W] Missing unit 0x2
+[2023-12-09 17:47:21:804804] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:21:805805] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:21:805805] [W] Detected missing or corrupt frame(s) from 1837 to 1840
+[2023-12-09 17:47:21:805805] [D] StreamConnection reporting corrupt frame(s) from 1837 to 1839
+[2023-12-09 17:47:21:820820] [I] Frame Processor received 11+1 / 14+1 units, attempting FEC
+[2023-12-09 17:47:21:821821] [E] FEC failed
+[2023-12-09 17:47:21:821821] [W] Missing unit 0
+[2023-12-09 17:47:21:821821] [W] Missing unit 0x1
+[2023-12-09 17:47:21:821821] [W] Missing unit 0x2
+[2023-12-09 17:47:21:821821] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:21:821821] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:21:821821] [W] Detected missing or corrupt frame(s) from 1837 to 1841
+[2023-12-09 17:47:21:821821] [D] StreamConnection reporting corrupt frame(s) from 1837 to 1840
+[2023-12-09 17:47:22:136136] [I] Frame Processor received 3+0 / 4+3 units, attempting FEC
+[2023-12-09 17:47:22:136136] [E] FEC failed
+[2023-12-09 17:47:22:136136] [W] Missing unit 0x3
+[2023-12-09 17:47:22:137137] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:22:137137] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:22:137137] [W] Detected missing or corrupt frame(s) from 1858 to 1860
+[2023-12-09 17:47:22:137137] [D] StreamConnection reporting corrupt frame(s) from 1858 to 1859
+[2023-12-09 17:47:25:137137] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:47:30:139139] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:47:30:394394] [I] Frame Processor received 14+0 / 23+4 units, attempting FEC
+[2023-12-09 17:47:30:394394] [E] FEC failed
+[2023-12-09 17:47:30:394394] [W] Missing unit 0xe
+[2023-12-09 17:47:30:394394] [W] Missing unit 0xf
+[2023-12-09 17:47:30:394394] [W] Missing unit 0x10
+[2023-12-09 17:47:30:394394] [W] Missing unit 0x11
+[2023-12-09 17:47:30:394394] [W] Missing unit 0x12
+[2023-12-09 17:47:30:394394] [W] Missing unit 0x13
+[2023-12-09 17:47:30:394394] [W] Missing unit 0x14
+[2023-12-09 17:47:30:394394] [W] Missing unit 0x15
+[2023-12-09 17:47:30:394394] [W] Missing unit 0x16
+[2023-12-09 17:47:30:395395] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:30:395395] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:30:395395] [W] Detected missing or corrupt frame(s) from 2350 to 2352
+[2023-12-09 17:47:30:395395] [D] StreamConnection reporting corrupt frame(s) from 2350 to 2351
+[2023-12-09 17:47:30:460460] [I] Frame Processor received 8+0 / 25+2 units, attempting FEC
+[2023-12-09 17:47:30:460460] [E] FEC failed
+[2023-12-09 17:47:30:460460] [W] Missing unit 0x8
+[2023-12-09 17:47:30:460460] [W] Missing unit 0x9
+[2023-12-09 17:47:30:460460] [W] Missing unit 0xa
+[2023-12-09 17:47:30:460460] [W] Missing unit 0xb
+[2023-12-09 17:47:30:460460] [W] Missing unit 0xc
+[2023-12-09 17:47:30:460460] [W] Missing unit 0xd
+[2023-12-09 17:47:30:460460] [W] Missing unit 0xe
+[2023-12-09 17:47:30:460460] [W] Missing unit 0xf
+[2023-12-09 17:47:30:460460] [W] Missing unit 0x10
+[2023-12-09 17:47:30:460460] [W] Missing unit 0x11
+[2023-12-09 17:47:30:460460] [W] Missing unit 0x12
+[2023-12-09 17:47:30:460460] [W] Missing unit 0x13
+[2023-12-09 17:47:30:460460] [W] Missing unit 0x14
+[2023-12-09 17:47:30:461461] [W] Missing unit 0x15
+[2023-12-09 17:47:30:461461] [W] Missing unit 0x16
+[2023-12-09 17:47:30:461461] [W] Missing unit 0x17
+[2023-12-09 17:47:30:461461] [W] Missing unit 0x18
+[2023-12-09 17:47:30:461461] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:30:461461] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:30:461461] [W] Detected missing or corrupt frame(s) from 2354 to 2355
+[2023-12-09 17:47:30:461461] [D] StreamConnection reporting corrupt frame(s) from 2354 to 2354
+[2023-12-09 17:47:30:462462] [I] Frame Processor received 0+5 / 9+18 units, attempting FEC
+[2023-12-09 17:47:30:462462] [E] FEC failed
+[2023-12-09 17:47:30:462462] [W] Missing unit 0
+[2023-12-09 17:47:30:462462] [W] Missing unit 0x1
+[2023-12-09 17:47:30:462462] [W] Missing unit 0x2
+[2023-12-09 17:47:30:462462] [W] Missing unit 0x3
+[2023-12-09 17:47:30:462462] [W] Missing unit 0x4
+[2023-12-09 17:47:30:462462] [W] Missing unit 0x5
+[2023-12-09 17:47:30:462462] [W] Missing unit 0x6
+[2023-12-09 17:47:30:462462] [W] Missing unit 0x7
+[2023-12-09 17:47:30:462462] [W] Missing unit 0x8
+[2023-12-09 17:47:30:462462] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:30:462462] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:30:462462] [W] Detected missing or corrupt frame(s) from 2354 to 2356
+[2023-12-09 17:47:30:462462] [D] StreamConnection reporting corrupt frame(s) from 2354 to 2355
+[2023-12-09 17:47:30:645645] [E] Takion dropping data with seq num 0x10295a25
+[2023-12-09 17:47:30:829829] [E] Takion dropping data with seq num 0x10295a25
+[2023-12-09 17:47:35:138138] [I] Ctrl received Heartbeat, sending reply
+[2023-12-09 17:47:35:618618] [W] Detected missing or corrupt frame(s) from 2659 to 2660
+[2023-12-09 17:47:35:618618] [D] StreamConnection reporting corrupt frame(s) from 2659 to 2659
+[2023-12-09 17:47:37:789789] [W] Detected missing or corrupt frame(s) from 2789 to 2790
+[2023-12-09 17:47:37:790790] [D] StreamConnection reporting corrupt frame(s) from 2789 to 2789
+[2023-12-09 17:47:37:802802] [I] Frame Processor received 5+1 / 12+1 units, attempting FEC
+[2023-12-09 17:47:37:802802] [E] FEC failed
+[2023-12-09 17:47:37:802802] [W] Missing unit 0
+[2023-12-09 17:47:37:802802] [W] Missing unit 0x1
+[2023-12-09 17:47:37:802802] [W] Missing unit 0x2
+[2023-12-09 17:47:37:802802] [W] Missing unit 0x3
+[2023-12-09 17:47:37:802802] [W] Missing unit 0x4
+[2023-12-09 17:47:37:802802] [W] Missing unit 0x5
+[2023-12-09 17:47:37:802802] [W] Missing unit 0x6
+[2023-12-09 17:47:37:802802] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:37:802802] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:37:802802] [W] Detected missing or corrupt frame(s) from 2789 to 2791
+[2023-12-09 17:47:37:802802] [D] StreamConnection reporting corrupt frame(s) from 2789 to 2790
+[2023-12-09 17:47:37:838838] [I] Frame Processor received 15+0 / 17+1 units, attempting FEC
+[2023-12-09 17:47:37:838838] [E] FEC failed
+[2023-12-09 17:47:37:838838] [W] Missing unit 0xf
+[2023-12-09 17:47:37:838838] [W] Missing unit 0x10
+[2023-12-09 17:47:37:838838] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:37:838838] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:37:838838] [W] Detected missing or corrupt frame(s) from 2789 to 2793
+[2023-12-09 17:47:37:838838] [D] StreamConnection reporting corrupt frame(s) from 2789 to 2792
+[2023-12-09 17:47:37:853853] [I] Frame Processor received 15+1 / 17+1 units, attempting FEC
+[2023-12-09 17:47:37:853853] [E] FEC failed
+[2023-12-09 17:47:37:853853] [W] Missing unit 0
+[2023-12-09 17:47:37:853853] [W] Missing unit 0x1
+[2023-12-09 17:47:37:853853] [E] Failed to push frame: Invalid data found when processing input
+[2023-12-09 17:47:37:853853] [W] Video callback did not process frame successfully.
+[2023-12-09 17:47:37:853853] [W] Detected missing or corrupt frame(s) from 2789 to 2794
+[2023-12-09 17:47:37:853853] [D] StreamConnection reporting corrupt frame(s) from 2789 to 2793
